@@ -103,7 +103,7 @@ button { font: inherit; }
 h1, h2, h3, p { overflow-wrap: break-word; }
 h1, h2, h3 { margin-top: 0; line-height: 1.02; letter-spacing: -0.035em; }
 h1 { max-width: 12ch; margin-bottom: 1.15rem; font-size: clamp(3rem, 13vw, 6.2rem); font-weight: 950; }
-h1 em { color: var(--gold-light); font-size: 0.49em; font-style: normal; line-height: 1.06; letter-spacing: -0.025em; }
+h1 em { display: inline-block; max-width: none; color: var(--gold-light); font-size: clamp(0.9rem, 4vw, 2rem); font-style: normal; line-height: 1.12; letter-spacing: -0.03em; white-space: nowrap; }
 h2 { margin-bottom: 1rem; font-size: clamp(2.15rem, 9vw, 4.25rem); font-weight: 950; }
 h3 { margin-bottom: 0.5rem; font-size: 1.35rem; font-weight: 900; text-transform: uppercase; }
 .hero-tagline { max-width: 22ch; margin: 0 0 0.65rem; font-size: clamp(1.35rem, 5vw, 2rem); font-weight: 850; line-height: 1.2; }
